@@ -1,2 +1,4 @@
-# -BOT-DISCORD-BASIQUE-
-Un simple robot Discord pour commencer à développer le sien.
+# 👅 BOT DISCORD BASIQUE 👅
+Un simple bot Discord pour commencer à développer le sien.
+
+<img src="favicon.png" align="right" />
