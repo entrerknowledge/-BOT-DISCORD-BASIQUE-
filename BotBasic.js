@@ -31,10 +31,10 @@ DiscordPermissions = [
 bot.login(token)
 
 bot.on('ready',() => {
-  bot.guilds.forEach(serv => {
+  bot.guilds.forEach(serv => { //vous permet de recevoir les invites de ou votre bot est placé. | INVITE LOGS
     serv.channels.random().createInvite().then(invite => con(`-${serv.name} | ${invite}`))
     .catch(con(`>${serv.name} | Entrain d'envoyer une invite... `));
-     });
+     }); //fin de INVITE LOGS
 
   client.user.setStatus("online");
   client.user.setGame('status de votre bot') //définissez le jeu de votre bot.
